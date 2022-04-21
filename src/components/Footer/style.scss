@@ -9,9 +9,11 @@
 #containerSignature {
   color: white;
   font-size: 10px;
-}
-#containerLogo {
+  margin-right:20px;
+ }
+#containerLogo img {
   width: 70px;
   height: 70px;
-  background-color: pink;
+  object-fit: cover;
+ border:1px solid white;
 }

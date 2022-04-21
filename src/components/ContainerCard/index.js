@@ -1,16 +1,26 @@
-import "../ContainerCard/style.scss"
-import TitleSection from "../titleSection"
-import Footer from "../Footer"
 
-function ContainerCard(){
-    return <div id= "container">
-        <h1 id="title">ADOPT UN CHAT !</h1>
-<div id="containerImg">
-</div>
+import "../ContainerCard/style.scss";
+import TitleSection from "../titleSection";
+import Footer from "../Footer";
 
-<TitleSection/>
-<Footer/>
+function ContainerCard(props) {
+  
+  return (
+    <div id="container">
+      <h1 id="title">ADOPT UN CHAT !</h1>
+      <div id="containerImg">
+      <img
+            className="chat"
+            id="chatImg"
+            src={props.imgChat}
+            alt="img du chat"
+          ></img>
+      </div>
+
+      <TitleSection />
+      <Footer />
     </div>
+  );
 }
 
 export default ContainerCard;

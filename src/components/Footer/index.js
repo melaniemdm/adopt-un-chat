@@ -1,4 +1,5 @@
 import "../Footer/style.scss";
+import logo from "../../assets/logoASMAA.png"
 
 function Footer(){
     const text=[
@@ -14,7 +15,12 @@ function Footer(){
 
     return <div id="footer">
 <div id="containerLogo">
-
+<img
+            className="chat"
+            id="chatImg"
+            src={logo}
+            alt="img du chat"
+          ></img>
 </div>
 <div id="containerSignature"> 
 {text}

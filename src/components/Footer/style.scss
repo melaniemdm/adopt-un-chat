@@ -1,0 +1,17 @@
+#footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  right: 20px;
+  gap: 5px;
+}
+
+#containerSignature {
+  color: white;
+  font-size: 10px;
+}
+#containerLogo {
+  width: 70px;
+  height: 70px;
+  background-color: pink;
+}

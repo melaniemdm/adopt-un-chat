@@ -1,6 +1,9 @@
 #titleSection{
      color:white;
 }
+.titleColor{
+color:#5b9bd5;
+}
 
 #containerUp{
    width: 80px;
@@ -8,22 +11,29 @@
     left: 270px;
     top: -240px;
 }
+#textDescibe{
+ 
+    width: 180px;
+    font-size:15px;
+    margin-top:20px;
+}
 #containerDown{
-       position:relative;
+       position:absolute;
+       top: 36%;
        }
 #container1{
     display: flex;
+    justify-content:flex-end;
     margin-left:20px;
     margin-right:20px;
-    
+  
    }
-#sexe{
-    margin-left:20px;  
+#color{
+    margin-left: 175px;
 }
-#age{
-   
-    width:250px;
-}   
+#sexe{
+    margin-left: 20px;
+    }
 #visibility{
     position: absolute;
     width: 140px;

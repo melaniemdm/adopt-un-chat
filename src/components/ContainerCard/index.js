@@ -12,7 +12,8 @@ function ContainerCard(props) {
       <img
             className="chat"
             id="chatImg"
-            src={props.imgChat}
+            src={"./src/assets/" + props.chat.pictures}
+            
             alt="img du chat"
           ></img>
       </div>

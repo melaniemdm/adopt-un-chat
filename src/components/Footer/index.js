@@ -4,13 +4,13 @@ import logo from "../../assets/logoASMAA.png"
 function Footer(){
     const text=[
   "Association Saint-Maurienne-Des-Amis-Animaux",
-  <br/>,
+  <br key="1" />,
  " 79 avenue Gabriel Péri" ,
- <br/>,
+ <br key="2"/>,
  " 94100 Saint-Maur-des-Fossés",
- <br/>,
+ <br key="3"/>,
   "Téléphone : 06 32 75 07 47" ,
-  <br/>,
+  <br key="4"/>,
   "Mail : assoc.amisanimaux@gmail.com" ]
 
     return <div id="footer">

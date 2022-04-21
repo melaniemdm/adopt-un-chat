@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {chatsListe} from '../../adopt-un-chat/src/datas/adoptMe'
 
+
 import ContainerCard from "../src/components/ContainerCard"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-       <ContainerCard chat={chatsListe[0]}/>
+    <div id="containerListe">{chatsListe.map(chat=> <ContainerCard key={chat.id}  chat={chat}/>)}   </div>
+  
   </React.StrictMode>
 );
 

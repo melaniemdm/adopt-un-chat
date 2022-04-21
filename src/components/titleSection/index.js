@@ -1,27 +1,27 @@
 import "../titleSection/style.scss";
-import {chatsListe} from '../../datas/adoptMe'
 
-function TitleSection() {
+
+function TitleSection(props) {
   return (
-    <div id="titleSection">
-      <div id="containerUp">
-        <div id="descriptif" className="titleColor">Descriptif</div>
+    <div className="titleSection"> 
+      <div className="containerUp">
+        <div  className="titleColor">Descriptif</div>
 
-       <div id="textDescibe"> 
-       <div> {chatsListe[0].description} </div>
-       </div>
+       <div className="textDescibe"> 
+      {props.describe} </div>
+       
       </div>
 
-      <div id="containerDown">
-          <div id="container1">
-        <div id="age" className="titleColor">Age :&nbsp; </div>
-        <div> {chatsListe[0].age}  </div>
+      <div className="containerDown">
+          <div className="container1">
+        <div  className="titleColor">Age :&nbsp; 
+        {props.catAge}  </div>
         
-        <div id="color" className="titleColor">Couleur :&nbsp; </div>
-        <div> {chatsListe[0].color} </div>
+        <div className="color">Couleur :&nbsp; {props.catColor} </div>
         </div>
-        <div id="sexe" className="titleColor">sexe :&nbsp;</div>
-        <div id="visibility" className="titleColor">Visible au refuge</div>
+        <div className="sexe">sexe :&nbsp;</div>
+        <div className="visibility">{props.visible}</div>
+ 
       </div>
     </div>
   );

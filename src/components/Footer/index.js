@@ -14,15 +14,15 @@ function Footer(){
   "Mail : assoc.amisanimaux@gmail.com" ]
 
     return <div id="footer">
-<div id="containerLogo">
+<div className="containerLogo">
 <img
-            className="chat"
-            id="chatImg"
+            className="chatImg"
+         
             src={logo}
             alt="img du chat"
           ></img>
 </div>
-<div id="containerSignature"> 
+<div className="containerSignature"> 
 {text}
 </div>
 

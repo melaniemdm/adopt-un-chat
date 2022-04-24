@@ -1,3 +1,28 @@
+.titleColor{
+    color:#5b9bd5;
+    padding-bottom:5px;
+}
+
 .titleSection{
      color:white;
+         padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      gap: 30px;
+ 
+}
+.containerDown {
+  display: flex;
+ 
+ //outline:1px solid white;
+margin-top:10px;
+}
+.cathegory{
+ 
+  margin-right: 110px;
+}
+.textDescibe{
+
+  margin-top: -20px;
 }

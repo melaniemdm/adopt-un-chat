@@ -1,6 +1,23 @@
-#container{
+.container{
     margin: 20px;
     width: 479px;
     height:479px;
     background-color: #002a3d;
+   
+}
+.title{
+    color:white;
+    text-align:center;
+}
+.containerImg{
+    width:200px;height:200px;margin-left: 10px; 
+   
+}
+.chatImg{
+width:200px;height:200px; 
+object-fit: cover;
+}
+.bodyCard{
+    //border: 5px solid yellowgreen; 
+    display: flex;
 }

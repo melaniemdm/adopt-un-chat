@@ -13,12 +13,11 @@ function Footer(){
   <br key="4"/>,
   "Mail : assoc.amisanimaux@gmail.com" ]
 
-    return <div id="footer">
+    return <div className="footer">
 <div className="containerLogo">
 <img
-            className="chatImg"
-         
-            src={logo}
+            className="logoImg"
+                    src={logo}
             alt="img du chat"
           ></img>
 </div>

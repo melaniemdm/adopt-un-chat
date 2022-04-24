@@ -9,19 +9,21 @@ import Footer from "../Footer";
 function ContainerCard(props) {
     
   return (
-    <div id="container">
-      <h1 id="title">ADOPT UN CHAT !</h1>
-      <div id="containerImg">
+    <div className="container">
+      <h1 className="title">ADOPT UN CHAT !</h1>
+      <div className="bodyCard"> 
+      <div className="containerImg">
       <img
-            className="chat"
-            id="chatImg"
+            className="chatImg"
             src={props.chat.pictures}
-            
             alt="img du chat"
           ></img>
       </div>
 
-      <div id="containerListeTitle"><TitleSection idImgChat={props.chat.id} picture={props.chat.pictures} visible={props.chat.visibility} catColor ={props.chat.color} catAge={props.chat.age} describe={props.chat.description}/></div>
+     <TitleSection idImgChat={props.chat.id} picture={props.chat.pictures}  describe={props.chat.description}/></div>
+
+     <TitleSection idImgChat={props.chat.id}  visible={props.chat.visibility} catColor ={props.chat.color} catAge={props.chat.age} />
+     
       <Footer />
     </div>
   );

@@ -2,29 +2,39 @@ import "../titleSection/style.scss";
 
 
 function TitleSection(props) {
+
+if (props.describe){
+  
   return (
     <div className="titleSection"> 
-      <div className="containerUp">
+    
         <div  className="titleColor">Descriptif</div>
 
        <div className="textDescibe"> 
       {props.describe} </div>
        
-      </div>
-
-      <div className="containerDown">
-          <div className="container1">
-        <div  className="titleColor">Age :&nbsp; 
-        {props.catAge}  </div>
-        
-        <div className="color">Couleur :&nbsp; {props.catColor} </div>
         </div>
-        <div className="sexe">sexe :&nbsp;</div>
-        <div className="visibility">{props.visible}</div>
- 
-      </div>
-    </div>
-  );
+  )}
+return (
+  <div className="titleSection"> 
+    
+  <div className="containerDown">
+   
+  <div  className="titleColor">Age :&nbsp;  </div>
+ <div className="txt cathegory"> {props.catAge}</div> 
+  
+  <div className="titleColor"> Couleur :&nbsp; </div>
+  <div className="txt cathegory"> {props.catColor} </div>
+ </div>
+ <div className="containerDown">
+  <div className="titleColor">sexe :&nbsp;</div>
+  <div className="titleColor"></div>
+  <div className="txt cathegory">   {props.visible}</div>
+</div>
+
+</div>
+)
+
 }
 
 export default TitleSection;

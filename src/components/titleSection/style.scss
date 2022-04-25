@@ -2,7 +2,9 @@
     color:#5b9bd5;
     padding-bottom:5px;
 }
-
+.describe{
+  margin-top:-8px;
+}
 .titleSection{
      color:white;
          padding-left: 15px;
@@ -14,22 +16,23 @@
 }
 .containerDown {
   display: flex;
- 
- //outline:1px solid white;
+ // outline:1px solid white;
 margin-top:10px;
+margin-right: 20px;
 }
-.cathegory{
- 
-  margin-right: 110px;
-}
-.textDescibe{
 
+.textDescibe{
+margin-right: 20px;
   margin-top: -20px;
 }
-.secondSection{
-  justify-content:space-between;
-}
+
 .chatsexeImg{
   position: absolute;
   width: 25px;height: 25px;
+}
+.visible{
+  margin-left:150px;
+}
+.color{
+  margin-left:130px;
 }

@@ -4,13 +4,13 @@ function TitleSection(props) {
   if (props.describe) {
     return (
       <div className="titleSection">
-        <div className="titleColor">Descriptif</div>
+        <div className="titleColor describe">Descriptif</div>
 
         <div className="textDescibe">{props.describe} </div>
       </div>
     );
   }
-
+if(props.sexeChat==="femelle"){
   return (
     <div className="titleSection">
       <div className="containerDown">
@@ -25,12 +25,36 @@ function TitleSection(props) {
           {props.sexeChat}&nbsp;{" "}
           <img
             className="chatsexeImg"
-            src={props.sexeChatImg}
+            src="/imgChat/femelle.png"
             alt="indication sexe du chat"
           ></img>
         </div>
         <div className="titleColor"></div>
         <div className="txt cathegory"> {props.visible}</div>
+      </div>
+    </div>
+  );
+}
+  return (
+    <div className="titleSection">
+      <div className="containerDown">
+        <div className="titleColor">Age :&nbsp; </div>
+        <div className="txt "> {props.catAge}</div>
+
+        <div className="titleColor color"> Couleur :&nbsp; </div>
+        <div className="txt "> {props.catColor} </div>
+      </div>
+      <div className="containerDown secondSection">
+        <div className="titleColor">
+          {props.sexeChat}&nbsp;{" "}
+          <img
+            className="chatsexeImg"
+            src="/imgChat/male.png"
+            alt="indication sexe du chat"
+          ></img>
+        </div>
+        <div className="titleColor"></div>
+        <div className="titleColor visible"> {props.visible}</div>
       </div>
     </div>
   );

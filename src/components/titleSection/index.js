@@ -26,7 +26,7 @@ return (
   <div className="titleColor"> Couleur :&nbsp; </div>
   <div className="txt cathegory"> {props.catColor} </div>
  </div>
- <div className="containerDown">
+ <div className="containerDown secondSection">
   <div className="titleColor">sexe :&nbsp;</div>
   <div className="titleColor"></div>
   <div className="txt cathegory">   {props.visible}</div>

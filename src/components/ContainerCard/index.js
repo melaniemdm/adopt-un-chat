@@ -22,7 +22,7 @@ function ContainerCard(props) {
 
      <TitleSection idImgChat={props.chat.id} picture={props.chat.pictures}  describe={props.chat.description}/></div>
 
-     <TitleSection idImgChat={props.chat.id}  visible={props.chat.visibility} catColor ={props.chat.color} catAge={props.chat.age} />
+     <TitleSection idImgChat={props.chat.id}  visible={props.chat.visibility} catColor ={props.chat.color} catAge={props.chat.age} sexeChat={props.chat.sexe} sexeChatImg={props.chat.sexeImg}/>
      
       <Footer />
     </div>

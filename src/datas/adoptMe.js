@@ -5,6 +5,8 @@ export const chatsListe = [
 		"name": "Mia",
 		"color": "noir et blanc",
         "age": " 5 ans",
+		"sexe":"Femelle",
+		"sexeImg":"/imgChat/femelle.png",
 		"pictures" : "/imgChat/mia.png",
 		"description": ["Mia est une femelle de 5 ans.",<br key="1"/>,
 		 "Elle fait partie de la même portée que Jade.",<br key="2"/>,
@@ -15,8 +17,10 @@ export const chatsListe = [
 		"name": "rio",
 		"color": "blanc",
         "age": "15 ans",
+		"sexe":"Mâle",
+		"sexeImg":"/imgChat/male.png",
 		"pictures" : "/imgChat/rio.jpg",
 		"description": ["rio est une femelle de 5 ans.",<br key="3"/>,
-		 "Elle fait partie de la même portée que Jade.",<br key="4"/>,
-		 " C'est une chatte également très gentille et en demande d'attention. Elle est énergique et bavarde !        "]
+		 "il fait parti de la même portée que Jade.",<br key="4"/>,
+		 " C'est un chat également très gentille et en demande d'attention. Elle est énergique et bavarde !        "]
 	}]

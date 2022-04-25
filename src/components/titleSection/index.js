@@ -10,15 +10,15 @@ function TitleSection(props) {
       </div>
     );
   }
-if(props.sexeChat==="femelle"){
+if(props.sexeChat==="Femelle"){
   return (
     <div className="titleSection">
       <div className="containerDown">
         <div className="titleColor">Age :&nbsp; </div>
-        <div className="txt cathegory"> {props.catAge}</div>
+        <div className="txt "> {props.catAge}</div>
 
-        <div className="titleColor"> Couleur :&nbsp; </div>
-        <div className="txt cathegory"> {props.catColor} </div>
+        <div className="titleColor color"> Couleur :&nbsp; </div>
+        <div className="txt "> {props.catColor} </div>
       </div>
       <div className="containerDown secondSection">
         <div className="titleColor">
@@ -30,7 +30,7 @@ if(props.sexeChat==="femelle"){
           ></img>
         </div>
         <div className="titleColor"></div>
-        <div className="txt cathegory"> {props.visible}</div>
+        <div className="ttitleColor visible"> {props.visible}</div>
       </div>
     </div>
   );

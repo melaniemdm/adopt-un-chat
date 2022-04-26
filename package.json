@@ -2,7 +2,7 @@
   "name": "adopt-un-chat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://melaniemdm.github.io/adopt-un-chat",
+  "homepage": "https://melaniemdm.github.io/adopt-un-chat/",
   "dependencies": {
     "@babel/core": ">=7.0.0-0 <8.0.0",
     "@babel/plugin-syntax-flow": "^7.14.5",

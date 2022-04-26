@@ -25,7 +25,7 @@ if(props.sexeChat==="Femelle"){
           {props.sexeChat}&nbsp;{" "}
           <img
             className="chatsexeImg"
-            src="/imgChat/femelle.png"
+            src="/adopt-un-chat/imgChat/femelle.png"
             alt="indication sexe du chat"
           ></img>
         </div>
@@ -49,7 +49,7 @@ if(props.sexeChat==="Femelle"){
           {props.sexeChat}&nbsp;{" "}
           <img
             className="chatsexeImg"
-            src="/imgChat/male.png"
+            src="/adopt-un-chat/imgChat/male.png"
             alt="indication sexe du chat"
           ></img>
         </div>

@@ -80,5 +80,19 @@ export const chatsListe = [
       <br key="6" />,
       "Elle aura besoin d'un foyer qui lui laissera le temps de prendre confiance en elle! ",
     ],
-  },
+  }, 
+  {id: "6",
+  visibility: "Visible au refuge",
+  name: "Browie",
+  color: "noir et blanc",
+  age: "5 ans",
+  sexe: "Femelle",
+  pictures: "/adopt-un-chat/imgChat/browie.jpg",
+  description:[
+    "Bowie est une femelle de 5 ans. ",
+    <br key="5" />,
+    "C'est une chatte très affectueuse qui aura besoin d'un extérieur. "]
+},
+
+
 ];

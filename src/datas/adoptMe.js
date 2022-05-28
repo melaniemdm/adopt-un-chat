@@ -94,5 +94,56 @@ export const chatsListe = [
     "C'est une chatte très affectueuse qui aura besoin d'un extérieur. "]
 },
 
+{id: "7",
+visibility: "Visible au refuge",
+name: "Minouche",
+color: "noir, blanc et marron",
+age: "13 ans",
+sexe: "Femelle",
+pictures: "/adopt-un-chat/imgChat/minouche.jpg",
+description:[
+  "Minouche est une femelle de 13 ans.  ",
+  <br key="6" />,
+  "C'est une gentille chatte qui est calme et apprécie les moments d'affection. ", <br key="7" />,
+  "Elle vient du même foyer que Ptimi."]
+},
+{id: "8",
+visibility: "Visible au refuge",
+name: "Ptimi",
+color: "gris et blanc",
+age: "9 ans",
+sexe: "Mâle",
+pictures: "/adopt-un-chat/imgChat/ptimi.jpg",
+description:[
+  "Ptimi est un mâle de 9 ans. C'est un chat très doux, calme et gentil.  ",
+  <br key="7" />,
+  "Il vient du même foyer que Minouche "]
+},
+{id: "9",
+visibility: "Visible au refuge",
+name: "Bagheera",
+color: "noir",
+age: "9 mois",
+sexe: "Mâle",
+pictures: "/adopt-un-chat/imgChat/Bagheera.jpg",
+description:[
+  "Bagheera est un mâle de 9 mois. C'est un chat agréable qui apprécie les caresses et les moments de jeu ",
+  <br key="7" />,
+  " Nous privilégierons un foyer qui pourra lui offrir un extérieur. "]
+},
+{id: "10",
+visibility: "Visible au refuge",
+name: "Baloo",
+color: "marron et blanc",
+age: "4 ans",
+sexe: "Mâle",
+pictures: "/adopt-un-chat/imgChat/baloo.jpg",
+description:[
+  "Baloo est un male de 4 ans. Il est doux et affectueux. Il a l'habitude de vivre en appartement",
+  <br key="7" />,
+  "Il a l'habitude de vivre en appartement et pourra parfaitement vivre dans un foyer ayant déjà un chat. "]
+},
+
+
 
 ];

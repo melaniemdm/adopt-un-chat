@@ -1,12 +1,12 @@
-.container{
+.containerCard{
     margin: 50px;
-    width:500px;
+    width:600px;
     height:500px;
     background-color: rgb(157, 157, 238);
    
 }
 .containerImgDescription{
-    outline: 1px solid yellow;
+   
     display: flex;
 }
 
@@ -22,11 +22,10 @@ object-fit: contain;
     display: inline-block;
     position: relative;
       width: auto;
-      height: auto;
-    //  background-color: lightyellow;
-  }
+      height: 300px;
+ }
   .border{
-    border: 5px solid #666;
+    border: 8px solid #666;
   }
   .round{
     border-radius: 30px;
@@ -35,8 +34,6 @@ object-fit: contain;
   
   }
   
-  
-
   /* Right triangle placed top right flush. */
   .tri-right.border.right-top:before {
       content: ' ';
@@ -60,13 +57,13 @@ object-fit: contain;
     top: 0px;
       bottom: auto;
       border: 20px solid;
-      border-color: white transparent transparent transparent;
+      border-color: rgb(157, 157, 238) transparent transparent transparent;
   }
   
   /* talk bubble contents */
   .talktext{
     padding: 1em;
-      text-align: left;
+      text-align: center;
     line-height: 1.5em;
   }
   .talktext p{

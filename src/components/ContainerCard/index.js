@@ -9,7 +9,7 @@ import Header from '../../layout/Header';
 function ContainerCard(props) {
     
   return (
-    <div className="container">
+    <div className="containerCard">
      <Header/>
    <div className="containerImgDescription">
    

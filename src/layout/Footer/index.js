@@ -15,9 +15,7 @@ function Footer(){
 
     return <div className="footer">
 <div className="containerLogo">
-<img
-            className="logoImg"
-                    src={logo}
+<img className="logoImg"src={logo}
             alt="img du chat"
           ></img>
 </div>

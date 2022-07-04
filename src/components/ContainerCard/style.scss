@@ -1,22 +1,76 @@
 .container{
     margin: 50px;
-    width: 479px;
-    height:479px;
-    background-color: #002a3d;
+    width:500px;
+    height:500px;
+    background-color: rgb(157, 157, 238);
    
 }
-
-.containerImg{
-    width:200px;height:220px;margin-left: 10px; 
-   background-color:#5b9bd5;
-}
-.chatImg{
-    padding-top:10px;
-    padding-bottom: 10px;
-width:200px;height:200px; 
-object-fit: contain;
-}
-.bodyCard{
-    //border: 5px solid yellowgreen; 
+.containerImgDescription{
+    outline: 1px solid yellow;
     display: flex;
 }
+
+.chatImg{
+width:250px;height:250px; 
+border-radius:150%;
+object-fit: contain;
+}
+
+  /* CSS talk bubble */
+  .talk-bubble {
+    position: relative;
+    display: inline-block;
+    position: relative;
+      width: auto;
+      height: auto;
+    //  background-color: lightyellow;
+  }
+  .border{
+    border: 5px solid #666;
+  }
+  .round{
+    border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+  
+  }
+  
+  
+
+  /* Right triangle placed top right flush. */
+  .tri-right.border.right-top:before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+    left: auto;
+      right: -40px;
+    top: -8px;
+      bottom: auto;
+      border: 32px solid;
+      border-color: #666 transparent transparent transparent;
+  }
+  .tri-right.right-top:after{
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+    left: auto;
+      right: -20px;
+    top: 0px;
+      bottom: auto;
+      border: 20px solid;
+      border-color: white transparent transparent transparent;
+  }
+  
+  /* talk bubble contents */
+  .talktext{
+    padding: 1em;
+      text-align: left;
+    line-height: 1.5em;
+  }
+  .talktext p{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }

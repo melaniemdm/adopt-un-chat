@@ -4,24 +4,24 @@ function TitleSection(props) {
   if (props.describe) {
     return (
       <div className="titleSection">
-        <div className="titleColor describe">Descriptif</div>
+        <div className="describe"></div>
 
-        <div className="textDescibe">{props.describe} </div>
+        <div className="textDescibe">Salut! moi c'est {props.describe} </div>
       </div>
     );
   }
 if(props.sexeChat==="Femelle"){
   return (
-    <div className="titleSection">
-      <div className="containerDown">
-        <div className="titleColor">Age :&nbsp; </div>
+    <div className="containerDetailCat">
+    <div className="contaireDetailLeft">
+        <div className="age">Age :&nbsp; </div>
         <div className="txt "> {props.catAge}</div>
 
-        <div className="titleColor color"> Couleur :&nbsp; </div>
-        <div className="txt "> {props.catColor} </div>
-      </div>
-      <div className="containerDown secondSection">
-        <div className="titleColor">
+        <div className="color"> Couleur :&nbsp; </div>
+        <div className="txt"> {props.catColor} </div>
+        </div>
+   <div className="contaireDetailRight">
+        <div className="sexe">
           {props.sexeChat}&nbsp;{" "}
           <img
             className="chatsexeImg"
@@ -29,23 +29,23 @@ if(props.sexeChat==="Femelle"){
             alt="indication sexe du chat"
           ></img>
         </div>
-        <div className="titleColor"></div>
+        <div className=""></div>
         <div className="ttitleColor visible"> {props.visible}</div>
-      </div>
+     </div>
     </div>
   );
 }
   return (
-    <div className="titleSection">
-      <div className="containerDown">
-        <div className="titleColor">Age :&nbsp; </div>
+    <div className="containerDetailCat">
+    <div className="contaireDetailLeft">
+        <div className="age">Age :&nbsp; </div>
         <div className="txt "> {props.catAge}</div>
 
-        <div className="titleColor color"> Couleur :&nbsp; </div>
+        <div className="color"> Couleur :&nbsp; </div>
         <div className="txt "> {props.catColor} </div>
-      </div>
-      <div className="containerDown secondSection">
-        <div className="titleColor">
+        </div>
+        <div className="contaireDetailRight">
+        <div className="sexe">
           {props.sexeChat}&nbsp;{" "}
           <img
             className="chatsexeImg"
@@ -53,9 +53,9 @@ if(props.sexeChat==="Femelle"){
             alt="indication sexe du chat"
           ></img>
         </div>
-        <div className="titleColor"></div>
-        <div className="titleColor visible"> {props.visible}</div>
-      </div>
+        <div className=""></div>
+        <div className="visible"> {props.visible}</div>
+        </div>
     </div>
   );
 }

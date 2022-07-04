@@ -1,42 +1,43 @@
-.titleColor{
-    color:#5b9bd5;
-    padding-bottom:5px;
-}
-.describe{
-  margin-top:-8px;
+// .titleColor{
+//     color:#5b9bd5;
+//     padding-bottom:5px;
+// }
+// .describe{
+//   margin-top:-8px;
   
- }
-.titleSection{
-     color:white;
-         padding-left: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-      gap: 30px;
+//  }
+// .titleSection{
+//      color:white;
+//          padding-left: 15px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: flex-start;
+//       gap: 30px;
  
-}
-.containerDown {
+// }
+.containerDetailCat {
   display: flex;
- // outline:1px solid white;
-margin-top:5px;
-margin-right: 20px;
+   justify-content: space-around;
+  flex-wrap: wrap;
+  outline:1px solid white;
+  width:500px;
 }
 
-.textDescibe{
-margin-right: 20px;
-  margin-top: -20px;
-  font-size:14px;
-}
+// .textDescibe{
+// margin-right: 20px;
+//   margin-top: -20px;
+//   font-size:14px;
+// }
 
 .chatsexeImg{
   position: absolute;
   width: 25px;height: 25px;
 }
-.visible{
-  margin-left:210px;
-  outline: 1px dashed #5b9bd5;
-  padding: 10px;
-}
-.color{
-  margin-left:130px;
-}
+// .visible{
+//   margin-left:210px;
+//   outline: 1px dashed #5b9bd5;
+//   padding: 10px;
+// }
+// .color{
+//   margin-left:130px;
+// }

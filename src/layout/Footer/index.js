@@ -1,5 +1,5 @@
 import "./style.scss";
-import logo from "../../assets/logoASMAA.png"
+import logo from "../../assets/logoASMAA2.png"
 
 function Footer(){
     const text=[

@@ -1,22 +1,23 @@
 @import "../../styles/communs.scss";
-.logoImg {
-  width: auto;
-  height: 70px;
-  object-fit: cover;
-  border: 1px solid $colorWhite;
-}
+
 .footer {
   position: relative;
   bottom: -10px;
-  height: 70px;
+  height: 80px;
   width: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  border: 11px ridge $colorWhite ;
 }
-
+.logoImg {
+  width: auto;
+  height: 80px;
+  object-fit: cover;
+ 
+}
 .containerSignature {
-  font-size: 10px;
+  font-size: 11px;
   color: $colorWhite;
 }

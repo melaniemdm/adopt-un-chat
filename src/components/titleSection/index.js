@@ -14,10 +14,10 @@ if(props.sexeChat==="Femelle"){
   return (
     <div className="containerDetailCat">
     <div className="contaireDetailLeft">
-        <div className="age">Age :&nbsp; </div>
-        <div className="txt "> {props.catAge}</div>
+        <div className="age bold">Age :&nbsp; </div>
+        <div className="txt"> {props.catAge}</div>
 
-        <div className="color"> Couleur :&nbsp; </div>
+        <div className="color bold"> Couleur :&nbsp; </div>
         <div className="txt"> {props.catColor} </div>
         </div>
    <div className="contaireDetailRight">
@@ -30,7 +30,7 @@ if(props.sexeChat==="Femelle"){
           ></img>
         </div>
         <div className=""></div>
-        <div className="ttitleColor visible"> {props.visible}</div>
+        <div className="visible"> {props.visible}</div>
      </div>
     </div>
   );
@@ -38,10 +38,10 @@ if(props.sexeChat==="Femelle"){
   return (
     <div className="containerDetailCat">
     <div className="contaireDetailLeft">
-        <div className="age">Age :&nbsp; </div>
+        <div className="age bold">Age :&nbsp; </div>
         <div className="txt "> {props.catAge}</div>
 
-        <div className="color"> Couleur :&nbsp; </div>
+        <div className="color bold"> Couleur :&nbsp; </div>
         <div className="txt "> {props.catColor} </div>
         </div>
         <div className="contaireDetailRight">

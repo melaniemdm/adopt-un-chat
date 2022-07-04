@@ -13,7 +13,7 @@ function ContainerCard(props) {
      <Header/>
    <div className="containerImgDescription">
    
-<div class="talk-bubble tri-right round border right-top">
+<div class="talk-bubble tri-right round right-in">
   <div class="talktext">
     <TitleSection idImgChat={props.chat.id} picture={props.chat.pictures}  describe={props.chat.description}/>
    
@@ -32,6 +32,8 @@ function ContainerCard(props) {
 <div className="containerDescriptionDetail">
  <TitleSection idImgChat={props.chat.id}  visible={props.chat.visibility} catColor ={props.chat.color} catAge={props.chat.age} sexeChat={props.chat.sexe} /></div>
  <Footer />
+
+
 
 
       

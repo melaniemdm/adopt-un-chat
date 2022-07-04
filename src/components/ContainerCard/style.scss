@@ -1,4 +1,4 @@
-@import '../../styles/communs.scss';
+ @import '../../styles/communs.scss';
 
 .containerCard{
     margin: 50px;
@@ -25,58 +25,62 @@ border-radius:150%;
 object-fit: contain;
 }
 
-  /* CSS talk bubble */
-  .talk-bubble {
-    position: relative;
-    display: inline-block;
-    position: relative;
-      width: auto;
-      height: auto;
- }
-  .border{
-    border: 8px solid $colorWhite;
-  }
-  .round{
-    border-radius: 30px;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-  
-  }
-  
-  /* Right triangle placed top right flush. */
-  .tri-right.border.right-top:before {
-      content: ' ';
-      position: absolute;
-      width: 0;
-      height: 0;
-    left: auto;
-      right: -40px;
-    top: -8px;
-      bottom: auto;
-      border: 32px solid;
-      border-color: $colorWhite transparent transparent transparent;
-  }
-  .tri-right.right-top:after{
-      content: ' ';
-      position: absolute;
-      width: 0;
-      height: 0;
-    left: auto;
-      right: -20px;
-    top: 0px;
-      bottom: auto;
-      border: 20px solid;
-      border-color: $colorBlue transparent transparent transparent;
-  }
-  
-  /* talk bubble contents */
-  .talktext{
-    padding: 1em;
-      text-align: center;
-    line-height: 1.5em;
-  }
-  .talktext p{
-    /* remove webkit p margins */
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-  }
+    
+/* CSS talk bubble */
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: $colorWhite;
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+
+/* Right triangle, right side slightly down*/
+.tri-right.border.right-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: 30px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 38px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: $colorWhite transparent transparent $colorWhite;
+}
+
+
+
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}

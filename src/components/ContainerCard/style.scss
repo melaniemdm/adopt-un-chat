@@ -9,6 +9,9 @@
    padding-right: 3px;
      padding-bottom: 20px;
    border-radius:15px;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
 }
 .containerImgDescription{
        display: flex;
@@ -20,7 +23,8 @@
     justify-content: center;
 }
 .chatImg{
-width:250px;height:250px; 
+width:250px;
+height:250px; 
 border-radius:150%;
 object-fit: contain;
 }

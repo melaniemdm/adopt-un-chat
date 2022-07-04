@@ -102,10 +102,10 @@ age: "13 ans",
 sexe: "Femelle",
 pictures: "/adopt-un-chat/imgChat/minouche.jpg",
 description:[
-  "Minouche est une femelle de 13 ans.  ",
+  "Minouche j'ai 13 ans.  ",
   <br key="6" />,
-  "C'est une gentille chatte qui est calme et apprécie les moments d'affection. ", <br key="7" />,
-  "Elle vient du même foyer que Ptimi."]
+  "je suis une gentille chatte calme et j'apprécie les moments d'affection. ", <br key="7" />,
+"Je vient du même foyer que Ptimi."]
 },
 {id: "8",
 visibility: "Visible au refuge",

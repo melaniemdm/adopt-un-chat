@@ -6,10 +6,14 @@
    
 }
 .containerImgDescription{
-   
-    display: flex;
+       display: flex;
 }
-
+.containerDescriptionDetail{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 .chatImg{
 width:250px;height:250px; 
 border-radius:150%;

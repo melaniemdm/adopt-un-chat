@@ -1,4 +1,4 @@
-import "../Footer/style.scss";
+import "./style.scss";
 import logo from "../../assets/logoASMAA.png"
 
 function Footer(){

@@ -3,14 +3,14 @@
 
 import "../ContainerCard/style.scss";
 import TitleSection from "../titleSection";
-import Footer from "../Footer";
-
+import Footer from "../../layout/Footer";
+import Header from '../../layout/Header';
 
 function ContainerCard(props) {
     
   return (
     <div className="container">
-      <h1 className="title">ADOPT UN CHAT !</h1>
+     <Header/>
       <div className="bodyCard"> 
       <div className="containerImg">
       <img

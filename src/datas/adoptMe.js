@@ -143,7 +143,40 @@ description:[
   <br key="7" />,
   "Il a l'habitude de vivre en appartement et pourra parfaitement vivre dans un foyer ayant déjà un chat. "]
 },
-
+{id: "11",
+visibility: "Visible au refuge",
+name: "Milou",
+color: "Gris",
+age: "9 ans",
+sexe: "Mâle",
+pictures: "/adopt-un-chat/imgChat/milou.jpg",
+description:[
+  "Milou est un mâle de 9 ans, très affectueux et en demande de contact. C'est un gentil chat, calme, qui a besoin d'un toilettage fréquent pour son pelage long. ",
+  <br key="7" />,
+  "Il s'entend avec les autres chats"]
+},
+{id: "12",
+visibility: "Visible au refuge",
+name: "Bellot",
+color: "tigré",
+age: "1 an",
+sexe: "Mâle",
+pictures: "/adopt-un-chat/imgChat/bellot.jpg",
+description:[
+  "Bellot est un mâle de 1 an. C'est un chat très sympathique et actif. Il apprécie le contact avec les humains, plus qu'avec ses congénères. ",
+  <br key="7" />,
+  "Nous privilégierons une famille sans autre chat. "]
+},
+{id: "13",
+visibility: "Visible au refuge",
+name: "Baloo",
+color: "l'un roux, l'autre noir",
+age: "4 mois",
+sexe: "Mâle",
+pictures: "/adopt-un-chat/imgChat/teddy-theo.jpg",
+description:[
+  "Teddy (roux) et Théo (noir) sont deux mâles de 4 mois, un peu timides au début, mais passé ce stade, ils prennent confiance. Teddy est plutôt calme, tandis que Théo adore le jeu. Il faudra un peu de patience pour qu'ils soient pleinement à l'aise mais acceptent déjà les caresses. Nous privilégierons une double adoption.",]
+},
 
 
 ];

@@ -1,9 +1,14 @@
+@import '../../styles/communs.scss';
+
 .containerCard{
     margin: 50px;
     width:600px;
-    height:500px;
-    background-color: rgb(157, 157, 238);
-   
+    height:auto;
+    background-color: $colorBlue;
+   padding-left: 30px;
+   padding-right: 3px;
+     padding-bottom: 20px;
+   border-radius:15px;
 }
 .containerImgDescription{
        display: flex;
@@ -26,10 +31,10 @@ object-fit: contain;
     display: inline-block;
     position: relative;
       width: auto;
-      height: 250px;
+      height: auto;
  }
   .border{
-    border: 8px solid #666;
+    border: 8px solid $colorWhite;
   }
   .round{
     border-radius: 30px;
@@ -49,7 +54,7 @@ object-fit: contain;
     top: -8px;
       bottom: auto;
       border: 32px solid;
-      border-color: #666 transparent transparent transparent;
+      border-color: $colorWhite transparent transparent transparent;
   }
   .tri-right.right-top:after{
       content: ' ';
@@ -61,7 +66,7 @@ object-fit: contain;
     top: 0px;
       bottom: auto;
       border: 20px solid;
-      border-color: rgb(157, 157, 238) transparent transparent transparent;
+      border-color: $colorBlue transparent transparent transparent;
   }
   
   /* talk bubble contents */

@@ -1,43 +1,22 @@
-// .titleColor{
-//     color:#5b9bd5;
-//     padding-bottom:5px;
-// }
-// .describe{
-//   margin-top:-8px;
-  
-//  }
-// .titleSection{
-//      color:white;
-//          padding-left: 15px;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: flex-start;
-//       gap: 30px;
- 
-// }
+@import "../../styles/communs.scss";
+
 .containerDetailCat {
   display: flex;
-   justify-content: space-around;
+  justify-content: space-around;
   flex-wrap: wrap;
-  outline:1px solid white;
-  width:500px;
+  width: 500px;
 }
 
-// .textDescibe{
-// margin-right: 20px;
-//   margin-top: -20px;
-//   font-size:14px;
-// }
-
-.chatsexeImg{
+.chatsexeImg {
   position: absolute;
-  width: 25px;height: 25px;
+  width: 25px;
+  height: 25px;
 }
-// .visible{
-//   margin-left:210px;
-//   outline: 1px dashed #5b9bd5;
-//   padding: 10px;
-// }
-// .color{
-//   margin-left:130px;
-// }
+.contaireDetailLeft{
+  outline: 1px solid green;
+width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

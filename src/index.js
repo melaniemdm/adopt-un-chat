@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import '../src/styles/style.scss';
 import {chatsListe} from '../../adopt-un-chat/src/datas/adoptMe'
 
 

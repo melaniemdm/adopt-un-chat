@@ -177,6 +177,24 @@ pictures: "/adopt-un-chat/imgChat/teddy-theo.jpg",
 description:[
   "Teddy (roux) et Théo (noir) sont deux mâles de 4 mois, un peu timides au début, mais passé ce stade, ils prennent confiance. Teddy est plutôt calme, tandis que Théo adore le jeu. Il faudra un peu de patience pour qu'ils soient pleinement à l'aise mais acceptent déjà les caresses. Nous privilégierons une double adoption.",]
 },
-
-
+{id: "14",
+visibility: "Visible au refuge",
+name: "Augustine",
+color: "tigré",
+age: "5 ans",
+sexe: "Femele",
+pictures: "/adopt-un-chat/imgChat/augustine.jpg",
+description:[
+  "Augustine j'ai 5 ans, j'ai été bandonnée devant la porte du refuge, j'ai eu besoin d'un peu de temps pour m'adapter et reprendre confiance en moi. Je suis une chatte bavarde et caline, qui a cependant son petit caractère. Je préfére être sans congénère, l'association va privilégier une famille sans autre animal.",]
+},
+{id: "15",
+visibility: "Visible au refuge",
+name: "Gribouille",
+color: "noir et blanc",
+age: "5 ans",
+sexe: "Mâle",
+pictures: "/adopt-un-chat/imgChat/gribouille.jpg",
+description:[
+  "Gribouille j'ai 5 ans. j'ai toujours vécu en appartement. J'ai besoin d'une attention particulière pour mon pelage long qui nécessite du brossage. Je suis un chat très doux et agréable",]
+},
 ];

@@ -90,3 +90,13 @@ border: thick double $colorBlueDark ;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
+
+.nameCat{
+  //outline:1px solid $colorBlueDark;
+  border: thick double $colorBlueDark ;
+  border-radius:20%;
+  text-align:center;
+  font-size:30px;
+  color:$colorBlueDark;
+  font-weight:bold;
+}

@@ -185,7 +185,7 @@ age: "5 ans",
 sexe: "Femele",
 pictures: "/adopt-un-chat/imgChat/augustine.jpg",
 description:[
-  "Augustine j'ai 5 ans, j'ai été bandonnée devant la porte du refuge, j'ai eu besoin d'un peu de temps pour m'adapter et reprendre confiance en moi. Je suis une chatte bavarde et caline, qui a cependant son petit caractère. Je préfére être sans congénère, l'association va privilégier une famille sans autre animal.",]
+  "Augustine j'ai 5 ans, j'ai été abandonnée devant la porte du refuge, j'ai eu besoin d'un peu de temps pour m'adapter et reprendre confiance en moi. Je suis une chatte bavarde et caline, qui a cependant son petit caractère. Je préfére être sans congénère, l'association va privilégier une famille sans autre animal.",]
 },
 {id: "15",
 visibility: "Visible au refuge",

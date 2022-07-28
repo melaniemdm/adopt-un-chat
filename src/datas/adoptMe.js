@@ -169,13 +169,13 @@ description:[
 },
 {id: "13",
 visibility: "Visible au refuge",
-name: "Baloo",
+name: "Teddy et Théo",
 color: "l'un roux, l'autre noir",
-age: "4 mois",
+age: "5 mois",
 sexe: "Mâle",
-pictures: "/adopt-un-chat/imgChat/teddy-theo.jpg",
+pictures: "/adopt-un-chat/imgChat/theotedy.png",
 description:[
-  "Teddy (roux) et Théo (noir) sont deux mâles de 4 mois, un peu timides au début, mais passé ce stade, ils prennent confiance. Teddy est plutôt calme, tandis que Théo adore le jeu. Il faudra un peu de patience pour qu'ils soient pleinement à l'aise mais acceptent déjà les caresses. Nous privilégierons une double adoption.",]
+  "Teddy (roux) et moi Théo (noir) nous sommes deux mâles de 5 mois, un peu timides au début, mais passé ce stade, nous prennons confiance. Teddy est plutôt calme, tandis que Théo adore le jeu. Il faudra un peu de patience pour que nous soyons pleinement à l'aise mais nous acceptons déjà les caresses. Nous privilégierons une double adoption.",]
 },
 {id: "14",
 visibility: "Visible au refuge",
@@ -196,5 +196,85 @@ sexe: "Mâle",
 pictures: "/adopt-un-chat/imgChat/gribouille.jpg",
 description:[
   "Gribouille j'ai 5 ans. j'ai toujours vécu en appartement. J'ai besoin d'une attention particulière pour mon pelage long qui nécessite du brossage. Je suis un chat très doux et agréable",]
+},
+{id: "16",
+visibility: "Visible au refuge",
+name: "Minouche",
+color: "tricolore",
+age: "13 ans",
+sexe: "Femelle",
+pictures: "/adopt-un-chat/imgChat/minouchev4.png",
+description:[
+  "Minouche je suis une gentille chatte de 13 ans. J’apprécie les moments de caresses et j'aime aussi avoir des moments de tranquillité. Un foyer sans autre animal sera privilégié. J'ai toujours vécu en appartement mais j'apprécie un petit extérieur",]
+},
+{id: "17",
+visibility: "Visible au refuge",
+name: "Bella",
+color: "marron et blanc",
+age: "1.5 ans",
+sexe: "Femelle",
+pictures: "/adopt-un-chat/imgChat/bella.png",
+description:[
+  "Bella je suis une femelle de 1,5 ans. Je suis arrivée au refuge avec Raphaël. Nous sommes deux chats très attachés et extrêmement gentils. Nous privilégierons une double adoption.",]
+},
+{id: "18",
+visibility: "Visible au refuge",
+name: "Raphaël",
+color: "gris",
+age: "1.5 ans",
+sexe: "Male",
+pictures: "/adopt-un-chat/imgChat/raph.png",
+description:[
+  "Raphaël je suis un male de 1,5 ans. Je suis arrivé au refuge avec Bella. Nous sommes deux chats très attachés et extrêmement gentils. Nous privilégierons une double adoption.",]
+},
+{id: "19",
+visibility: "Visible au refuge",
+name: "Ulysse",
+color: "marron",
+age: "8 mois",
+sexe: "Male",
+pictures: "/adopt-un-chat/imgChat/ulysse.png",
+description:[
+  "Ulysse je suis un mâle de 8 mois. Je suis un chat en demande de beaucoup d'affectation et extrêmement gentil. j'ai besoin d'un foyer avec une présence pour jouer avec moi et me rassurer",]
+},
+{id: "20",
+visibility: "Visible au refuge",
+name: "Birdie",
+color: "marron",
+age: "1 an",
+sexe: "Femelle",
+pictures: "/adopt-un-chat/imgChat/birdie.png",
+description:[
+  "Birdie je suis une femme de 1 an, bavarde, active autant que caline. J'aurai besoin d'un extérieur pour m'épanouir pleinement.",]
+},
+{id: "21",
+visibility: "Visible au refuge",
+name: "sabah",
+color: "marron et beige",
+age: "2 ans",
+sexe: "Femelle",
+pictures: "/adopt-un-chat/imgChat/sabah.png",
+description:[
+  "Sabah je suis une femelle de 2 ans. Je suis une chatte agréable qui sait faire connaître ses besoins et ses envies. J'aurai besoin d'un extérieur et de préférence pour m'épanouir pleinement. Un foyer sans autre animal sera privilégié. ",]
+},
+{id: "22",
+visibility: "Visible au refuge",
+name: "Ziggie",
+color: "marron",
+age: "2 ans",
+sexe: "Femelle",
+pictures: "/adopt-un-chat/imgChat/ziggie.png",
+description:[
+  "Ziggie je suis une femelle de 2 ans. Je suis une chatte douce et caline, qui apprécierai un petit bout de jardin. Jeune maman, mes chatons sont également visibles au refuge.",]
+},
+{id: "23",
+visibility: "Visible au refuge",
+name: "noisette",
+color: "gris et blanc",
+age: "5 ans",
+sexe: "Femelle",
+pictures: "/adopt-un-chat/imgChat/noisette.png",
+description:[
+  "Noisette je suis une chatte de 5 ans, d'une douceur rare, je suis arrivée au refuge suite au décès de ma maîtresse. J'ai besoin de reprendre confiance en moi dans un foyer calme et affectueux. J'apprécierai un extérieur.",]
 },
 ];

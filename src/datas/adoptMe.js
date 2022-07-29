@@ -249,7 +249,7 @@ description:[
 },
 {id: "21",
 visibility: "Visible au refuge",
-name: "sabah",
+name: "Sabah",
 color: "marron et beige",
 age: "2 ans",
 sexe: "Femelle",
@@ -269,7 +269,7 @@ description:[
 },
 {id: "23",
 visibility: "Visible au refuge",
-name: "noisette",
+name: "Noisette",
 color: "gris et blanc",
 age: "5 ans",
 sexe: "Femelle",
@@ -285,7 +285,7 @@ age: "15 ans",
 sexe: "Femelle",
 pictures: "/adopt-un-chat/imgChat/titou.png",
 description:[
-  "Titou je suis une chatte de 15 ans et quelquels problème de digestions (intolérrance aux croquettes). Venez me rencontrer !",]
+  "Titou je suis une chatte de 15 ans et quelques problème de digestions (intolérances aux croquettes). Venez me rencontrer !",]
 },
 
 

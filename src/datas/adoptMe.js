@@ -277,4 +277,17 @@ pictures: "/adopt-un-chat/imgChat/noisette.png",
 description:[
   "Noisette je suis une chatte de 5 ans, d'une douceur rare, je suis arrivée au refuge suite au décès de ma maîtresse. J'ai besoin de reprendre confiance en moi dans un foyer calme et affectueux. J'apprécierai un extérieur.",]
 },
+{id: "24",
+visibility: "Visible au refuge",
+name: "Titou",
+color: "gris ",
+age: "15 ans",
+sexe: "Femelle",
+pictures: "/adopt-un-chat/imgChat/titou.png",
+description:[
+  "Titou je suis une chatte de 15 ans et quelquels problème de digestions (intolérrance aux croquettes). Venez me rencontrer !",]
+},
+
+
+
 ];

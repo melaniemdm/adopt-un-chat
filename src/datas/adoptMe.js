@@ -304,7 +304,7 @@ color: "1.5 ans",
 sexe: "Femelle",
 pictures: "/adopt-un-chat/imgChat/Lili.jpg",
 description:[
-  "Lili je suis une chatte de 1,5 ans. Je suis très calme et douce, qui sait cependant se faire comprendre à mes congénères quand je souhaite être tranquille. Nous privilégierons donc une famille sans autre animal",
+  "Lili je suis une chatte de 1,5 ans. Je suis très calme et douce, mais je sais me faire comprendre de mes congénères quand je souhaite être tranquille. Je préférerais être le seul animal de mon futur foyer",
 ]
 },{id: "27",
 visibility: "Visible au refuge",
@@ -313,7 +313,7 @@ color: "4 mois",
 sexe: "Male",
 pictures: "/adopt-un-chat/imgChat/Lucky.jpg",
 description:[
-  "Lucky je suis un jeune male de 4 mois. Je suis une machine à ronrons qui ne demande qu'à jouer et être câliné. J'ai cependant besoin d'un peu d'éducation, car je n'ai pas eu la chance d'avoir ma maman pour m'apprendre les bonnes manières. Il saura rendre heureux toute une famille",]
+  "Lucky je suis un jeune male de 4 mois. Je suis une machine à ronrons qui ne demande qu'à jouer et être câliné. J'ai cependant besoin d'un peu d'éducation, car je n'ai pas eu la chance d'avoir ma maman pour m'apprendre les bonnes manières. Je saurais cependant rendre heureuse toute une famille",]
 },
 {id: "28",
 visibility: "Visible au refuge",
@@ -331,7 +331,7 @@ color: "5 ans",
 sexe: "Femelle",
 pictures: "/adopt-un-chat/imgChat/Marvel.jpg",
 description:[
-  "Marvel je suis une femelle de 5 ans. Abandonnée car coupable de trop aimer mon maître, il lui faudra une famille sans autre congénère pour pouvoir tout l'amour de son futur foyer, ok appartement",]
+  "Marvel je suis une femelle de 5 ans. Abandonnée car coupable de trop aimer mon maître, il me faudra une famille sans autre congénère pour que je puisse montrer tout l'amour de mon futur foyer, je peux tout à fait vivre en appartement",]
 },
 {id: "30",
 visibility: "Visible au refuge",
@@ -340,7 +340,7 @@ color: "3 ans",
 sexe: "Male",
 pictures: "/adopt-un-chat/imgChat/Queency.jpg",
 description:[
-  "Queency je suis une femelle de 3 ans. Je suis adorable et ai besoin de prendre confiance pour être pleinement à l'aise. J'apprécie les caresses et les moments de complicité avec les humains,  ok appartement",]
+  "Queency je suis une femelle de 3 ans. Je suis adorable et j'ai besoin de prendre confiance pour être pleinement à l'aise. J'apprécie les caresses et les moments de complicité avec les humains,  je peux tout à fait vivre en appartement",]
 },
 {id: "31",
 visibility: "Visible au refuge",
@@ -349,7 +349,7 @@ color: "4 ans",
 sexe: "Male",
 pictures: "/adopt-un-chat/imgChat/Shadow.jpg",
 description:[
-  "Shadow je suis une femelle de 1 an. Arrivée au refuge avec mes chatons, c'est désormais à mon tour de trouver un foyer pour la vie. Je suis une chatte craintive mais extrêmement douce et caline dès qu'on me donne de l'attention. (Appartement)",]
+  "Shadow je suis une femelle de 1 an. Arrivée au refuge avec mes chatons, c'est désormais à mon tour de trouver un foyer pour la vie. Je suis une chatte craintive mais extrêmement douce et caline dès qu'on me donne de l'attention. Je préférerais vivre dans un appartement.",]
 },
 
 

@@ -337,7 +337,7 @@ description:[
 visibility: "Visible au refuge",
 name: "Queency",
 color: "3 ans",
-sexe: "Male",
+sexe: "Femelle",
 pictures: "/adopt-un-chat/imgChat/Queency.jpg",
 description:[
   "Queency je suis une femelle de 3 ans. Je suis adorable et j'ai besoin de prendre confiance pour être pleinement à l'aise. J'apprécie les caresses et les moments de complicité avec les humains,  je peux tout à fait vivre en appartement",]
@@ -346,7 +346,7 @@ description:[
 visibility: "Visible au refuge",
 name: "Shadow",
 color: "4 ans",
-sexe: "Male",
+sexe: "Femelle",
 pictures: "/adopt-un-chat/imgChat/Shadow.jpg",
 description:[
   "Shadow je suis une femelle de 1 an. Arrivée au refuge avec mes chatons, c'est désormais à mon tour de trouver un foyer pour la vie. Je suis une chatte craintive mais extrêmement douce et caline dès qu'on me donne de l'attention. Je préférerais vivre dans un appartement.",]
